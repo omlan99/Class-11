@@ -1,0 +1,288 @@
+/* common css start */
+:root{
+    --dark-blue:#0f2f44;
+    --white-gray: #f5f5f5;
+    --dark-gray: #e9e9e9;
+    --light-gray: #ededed;
+    --white:#ffffff;
+    --purple: #8383bf;
+    --black: #222222;
+    --yellow:#ffc712;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.inner-container-1{
+    width: 470px;
+}
+.inner-container-2{
+    width:570px;
+    color:var(--dark-blue);
+}
+.inner-container-2 h3{
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.inner-container-2 h2{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.inner-container-2 p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.flex{
+    display: flex;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+    color:var(--dark-blue);
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color:var(--dark-blue);
+    padding: 16px 20px;
+}
+.common{
+    text-align: center;
+    
+    
+}
+.common h3{
+    font-size: 14px;
+    font-weight: 300;
+}
+.common h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+#service, #testimonial{
+    padding: 60px 0;
+    background-color: var(--white-gray);
+}
+#portfolio, #blog{
+    padding: 100px 0;
+}
+.common-2 .logo{
+    background-color: var(--dark-gray);
+    padding: 60px 20px;
+
+}
+.common-2 .description{
+    padding: 30px 20px;
+    background-color: var(--light-gray);
+}
+
+#service .common, #testimonial .common{
+    padding-bottom: 30px;
+}
+.browse{
+    background-color: var(--yellow);
+    display: block;
+    width: max-content;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+/* common css end */
+/* top section css start */
+#top_section .flex, nav .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+#top_section{
+    background-color: var(--dark-blue);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding:20px 0;
+}
+/* top section css end */
+/* nav css start */
+
+nav ul li a{
+    display: block;
+    color:var(--black);
+    padding: 40px 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+nav ul li .home{
+    color:#ffc712;
+    background-color: var(--light-yellow);
+}
+/* nav css end */
+/* banner css start */
+#banner{
+    background-image: url(../Images/banner.jpg);
+    padding:142px 0;
+    
+}
+#banner .inner-container-1 h1{
+    font-size: 80px;
+    line-height: 70px;
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 16px;
+
+}
+#banner .inner-container-1 h2{
+    font-size:50px;
+    line-height: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    padding-bottom: 13px;
+
+}
+#banner .inner-container-1 h3{
+    font-size:32px;
+    line-height: 24px;
+    letter-spacing: 17px;
+    font-weight: 300;
+}
+#banner .inner-container-1 p{
+    font-size: 14px;
+    line-height: 24px;
+    padding:30px 0;
+
+}
+#banner .inner-container-1 a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius:3px;
+    color: var(--white);
+    background-color: var(--purple);
+}
+/* about css start */
+#about{
+    background-image: url(../Images/about.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 100px 0;
+}
+#about ul{
+    padding: 33px 30px;
+}
+#about  li{
+    font-size: 16px;
+    line-height: 44px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#about .link .know{
+    background-color: var(--yellow);
+    margin-right: 20px;
+}
+#about .link .read{
+    box-shadow: 10px 10px 30px 5px gray;
+}
+/* about css end */
+/* skill css start */
+#skill{
+    background-image: url(../Images/skill.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#skill .inner-container-2{
+    text-align: right;
+    margin-left: auto;
+}
+/* skill css end */
+/* service css start */
+#service .item .web_design{
+    background-color:var(--dark-blue);
+    color: var(--white);
+    padding: 30px 130px ;
+    text-align: center;
+    border-radius: 5px;
+}
+.item .wd{
+    width: calc(100%/3);
+    margin-right:30px;
+}
+/* service css end */
+/* portfolio css start */
+/* protfolio css end */
+/* testimonial css start */
+#testimonial{
+    color: var(--dark-blue);
+}
+#testimonial .common-2{
+    margin-right: 30px;
+}
+#testimonial .description p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 34px;   
+}
+#testimonial .description h2{
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#testimonial .description h3{
+    font-size: 16px;
+    font-weight: 300;
+}   
+/* testimonial css end */
+/* blog css start */
+#blog .common{
+    padding-bottom: 67px;
+}
+#blog .images div{
+    padding: 20px 17px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+#blog .images .image{
+    background-color: var(--light-gray);
+}
+
+
+#blog .images .text h3{
+    color: var(--black);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#blog .images .text p{
+    font-size: 14px;
+}
+#blog .images .image-2{
+    background-color: var(--dark-blue);
+    
+}
+#blog .images .image-2 h3, #blog .images .image-2 p{
+    color:var(--white);
+}
+
+
+/* blog css end */
