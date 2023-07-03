@@ -142,7 +142,7 @@ nav ul li .home{
 /* nav css end */
 /* banner css start */
 #banner{
-    background-image: url(../Images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     padding:142px 0;
     
 }
@@ -183,7 +183,7 @@ nav ul li .home{
 }
 /* about css start */
 #about{
-    background-image: url(../Images/about.png);
+    background-image: url(../images/about.png);
     background-repeat: no-repeat;
     background-position: right;
     padding: 100px 0;
@@ -207,7 +207,7 @@ nav ul li .home{
 /* about css end */
 /* skill css start */
 #skill{
-    background-image: url(../Images/skill.png);
+    background-image: url(../images/skill.png);
     background-repeat: no-repeat;
     background-position: left;
 }
