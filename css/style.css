@@ -227,47 +227,22 @@ nav ul li a:hover{
     margin-left: auto;
 }
 /* skill css end */
-/* service css start */
-#service .item .common-2 :hover{
-   /* background-color:var(--dark-blue);
-   color: var(--white);
-   flex-wrap: wrap;
-   /* color: var(--white); */
-    /* padding: 30px 130px ; */
-    /* text-align: center; */
-}  */
-/* .item .wd{
-    width: calc(100%/3);
-    margin-right:30px;
-} */
-/* #service .common-2{
-    position: relative;
-}
-#service .arrow{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-} */
+/* service css start */ 
 /* service css end */
 /* portfolio css start */
 #portfolio .container .common{
     padding: 60px;
-    background-color: rgb(246, 189, 189);
 }
 #portfolio .image div{
     margin-right: 60px;
 }
-#portfolio .image :nth-child(2){
-    background-color: var(--white);
-}
-#portfolio .image :nth-child(2) image{
-    z-index: 999;
-}
+
 #portfolio .image :nth-child(2) h3{
     color:var(--dark-blue);
     margin-block-start: 0;
     margin-block-end: 0;
     margin-top: -10px;
+
     background-color: var(--white);
     text-align: center;
     padding:32px 0 28px 0;
