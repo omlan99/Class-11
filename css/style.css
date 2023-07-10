@@ -8,6 +8,7 @@
     --purple: #8383bf;
     --black: #222222;
     --yellow:#ffc712;
+    --light-yellow:#fff9e6;
 }
 *{
     margin: 0;
@@ -65,11 +66,17 @@ a{
     font-weight: 400;
     color:var(--dark-blue);
     padding: 16px 20px;
+    background-color: var(--white);
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.6s;
+}
+a:hover{
+    background-color: var(--yellow);
+    box-shadow: none;
 }
 .common{
-    text-align: center;
-    
-    
+    text-align: center;    
 }
 .common h3{
     font-size: 14px;
@@ -86,6 +93,9 @@ a{
 #portfolio, #blog{
     padding: 100px 0;
 }
+.common-2{
+    margin-right: 30px;
+}
 .common-2 .logo{
     background-color: var(--dark-gray);
     padding: 60px 20px;
@@ -100,11 +110,14 @@ a{
     padding-bottom: 30px;
 }
 .browse{
-    background-color: var(--yellow);
+    
     display: block;
     width: max-content;
     margin: 60px auto;
     border-radius: 5px;
+}
+.browse:hover{
+    background-color: var(--yellow);
 }
 /* common css end */
 /* top section css start */
@@ -133,11 +146,12 @@ nav ul li a{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    box-shadow: none;
 
 }
-nav ul li .home{
+nav ul li a:hover{
+    background-color:var(--light-yellow);
     color:#ffc712;
-    background-color: var(--light-yellow);
 }
 /* nav css end */
 /* banner css start */
@@ -173,7 +187,7 @@ nav ul li .home{
     padding:30px 0;
 
 }
-#banner .inner-container-1 a{
+#banner .inner-container-1 a:hover{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 24px;
@@ -197,13 +211,10 @@ nav ul li .home{
     font-family: 'Open Sans', sans-serif;
     
 }
-#about .link .know{
-    background-color: var(--yellow);
+#about .link a{
     margin-right: 20px;
 }
-#about .link .read{
-    box-shadow: 10px 10px 30px 5px gray;
-}
+
 /* about css end */
 /* skill css start */
 #skill{
@@ -217,19 +228,51 @@ nav ul li .home{
 }
 /* skill css end */
 /* service css start */
-#service .item .web_design{
-    background-color:var(--dark-blue);
-    color: var(--white);
-    padding: 30px 130px ;
-    text-align: center;
-    border-radius: 5px;
-}
-.item .wd{
+#service .item .common-2 :hover{
+   /* background-color:var(--dark-blue);
+   color: var(--white);
+   flex-wrap: wrap;
+   /* color: var(--white); */
+    /* padding: 30px 130px ; */
+    /* text-align: center; */
+}  */
+/* .item .wd{
     width: calc(100%/3);
     margin-right:30px;
+} */
+/* #service .common-2{
+    position: relative;
 }
+#service .arrow{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+} */
 /* service css end */
 /* portfolio css start */
+#portfolio .container .common{
+    padding: 60px;
+    background-color: red;
+}
+#portfolio .image div{
+    margin-right: 60px;
+}
+#portfolio .image :nth-child(2){
+    background-color: var(--white);
+}
+#portfolio .image :nth-child(2) image{
+    z-index: 999;
+}
+#portfolio .image :nth-child(2) h3{
+    color:var(--dark-blue);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: -10px;
+    background-color: var(--white);
+    text-align: center;
+    padding:32px 0 28px 0;
+    /* box-shadow: 10px 10px 30px 5px gray; */
+}
 /* protfolio css end */
 /* testimonial css start */
 #testimonial{
@@ -267,22 +310,48 @@ nav ul li .home{
 }
 
 
-#blog .images .text h3{
-    color: var(--black);
+#blog .images .image h3{
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
-#blog .images .text p{
+#blog .images .image p{
     font-size: 14px;
 }
-#blog .images .image-2{
+#blog .images .image:hover{
     background-color: var(--dark-blue);
+    color:var(--white);
     
 }
-#blog .images .image-2 h3, #blog .images .image-2 p{
-    color:var(--white);
-}
+
 
 
 /* blog css end */
+/* contact css start */
+/* #contact .container .links a{
+    display: block;
+} */
+/* contact css end */
+#service .item .common-2{
+    position: relative;
+}
+#service .item .common-2 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--dark-blue);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+#service .item .common-2 .overlay img{
+    margin: 30px;
+}
+#service .item .common-2 .overlay h3{
+    padding-bottom: 67px;
+    color: #ffffff;
+}
+#service .item .common-2:hover .overlay{
+    display:block;
+}
