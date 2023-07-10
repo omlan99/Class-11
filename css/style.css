@@ -252,7 +252,7 @@ nav ul li a:hover{
 /* portfolio css start */
 #portfolio .container .common{
     padding: 60px;
-    background-color: red;
+    background-color: rgb(246, 189, 189);
 }
 #portfolio .image div{
     margin-right: 60px;
@@ -332,26 +332,3 @@ nav ul li a:hover{
     display: block;
 } */
 /* contact css end */
-#service .item .common-2{
-    position: relative;
-}
-#service .item .common-2 .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--dark-blue);
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    display: none;
-}
-#service .item .common-2 .overlay img{
-    margin: 30px;
-}
-#service .item .common-2 .overlay h3{
-    padding-bottom: 67px;
-    color: #ffffff;
-}
-#service .item .common-2:hover .overlay{
-    display:block;
-}
