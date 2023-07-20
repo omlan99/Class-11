@@ -228,6 +228,26 @@ nav ul li a:hover{
 }
 /* skill css end */
 /* service css start */ 
+#service .item{
+    position: relative;
+    
+}
+#Service .common-2{
+    position: relative;
+}
+#service .common-2::after{
+    content: '';
+    height: 200px;
+    width: 355px;
+    top:-200px;
+    left: 0;
+    background-color: #0f2f44;
+    position: absolute;
+    transition: 0.5s;
+}
+#service .common-2:hover::after{
+    top:150px;
+}
 /* service css end */
 /* portfolio css start */
 #portfolio .container .common{
@@ -256,6 +276,7 @@ nav ul li a:hover{
 #testimonial .common-2{
     margin-right: 30px;
 }
+
 #testimonial .description p{
     font-size: 14px;
     line-height: 24px;
@@ -303,7 +324,16 @@ nav ul li a:hover{
 
 /* blog css end */
 /* contact css start */
-/* #contact .container .links a{
-    display: block;
-} */
+#contact .details{
+    width: 40%;
+}
+#contact .address{
+    width: 20%;
+}
+#contact .links{
+    width: 20%;
+}
+#contact .images{
+    width: 40%;
+}
 /* contact css end */
