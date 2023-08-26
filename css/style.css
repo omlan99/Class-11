@@ -219,6 +219,31 @@ nav ul li a:hover{
     text-align: right;
     margin-left: auto;
 }
+#skill .skills .skill-item{
+    align-items: center;
+}
+#skill .skills .skill-item .skill-item-name{
+    width: 80%;
+}
+#skill .skills .skill-item .skill-item-name .behind{
+    width:100%;
+    height:10px;
+    background-color: red;
+}
+#skill .skills .skill-item .skill-item-name .front{
+    width: 50%;
+    height: 10px;
+    background-color: black;
+}
+
+#skill .skills .skill-item-img{
+    width: 20%;
+}
+#skill .skills .skill-item-img img{
+    border:15px solid var(--white);
+    border-radius: 50%;
+    box-shadow: 0 25px 60px 10px rgba(0,0,0,0.15);
+}
 /* skill css end */
 
 
@@ -282,6 +307,7 @@ nav ul li a:hover{
 }
 #portfolio .image div img{
     display: block;
+    width:100%;
 }
 /* protfolio css end */
 /* testimonial css start */
